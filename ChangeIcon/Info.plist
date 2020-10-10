@@ -62,5 +62,39 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>n64</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>n64-icon</string>
+				</array>
+			</dict>
+			<key>ps</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>ps-icon</string>
+				</array>
+			</dict>
+			<key>sega</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>sega-icon</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array/>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+	</dict>
 </dict>
 </plist>
