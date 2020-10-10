@@ -17,6 +17,7 @@
 		D485005F2532500400CF1FB4 /* ps-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D485005C2532500400CF1FB4 /* ps-icon.png */; };
 		D48500602532500400CF1FB4 /* n64-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D485005D2532500400CF1FB4 /* n64-icon.png */; };
 		D48500612532500400CF1FB4 /* sega-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D485005E2532500400CF1FB4 /* sega-icon.png */; };
+		D48500652532591400CF1FB4 /* app-record.mov in Resources */ = {isa = PBXBuildFile; fileRef = D48500642532591400CF1FB4 /* app-record.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D485005C2532500400CF1FB4 /* ps-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ps-icon.png"; sourceTree = "<group>"; };
 		D485005D2532500400CF1FB4 /* n64-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n64-icon.png"; sourceTree = "<group>"; };
 		D485005E2532500400CF1FB4 /* sega-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sega-icon.png"; sourceTree = "<group>"; };
+		D48500642532591400CF1FB4 /* app-record.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "app-record.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		D485003D25323F4A00CF1FB4 /* ChangeIcon */ = {
 			isa = PBXGroup;
 			children = (
+				D48500632532591400CF1FB4 /* assets */,
 				D485005B25324FC800CF1FB4 /* Icons */,
 				D485005525324B7000CF1FB4 /* View */,
 				D485003E25323F4A00CF1FB4 /* AppDelegate.swift */,
@@ -93,6 +96,14 @@
 				D485005E2532500400CF1FB4 /* sega-icon.png */,
 			);
 			path = Icons;
+			sourceTree = "<group>";
+		};
+		D48500632532591400CF1FB4 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				D48500642532591400CF1FB4 /* app-record.mov */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +169,7 @@
 				D485004825323F4A00CF1FB4 /* Assets.xcassets in Resources */,
 				D485004625323F4A00CF1FB4 /* Main.storyboard in Resources */,
 				D485005F2532500400CF1FB4 /* ps-icon.png in Resources */,
+				D48500652532591400CF1FB4 /* app-record.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
