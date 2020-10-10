@@ -2,6 +2,8 @@
 
 Como trocar o ícone do seu app via código.
 
+![Sample](ChangeIcon/assets/changeicon.gif?raw=true) 
+
 ## Configurando o Info.plist
 
 Adicione `CFBundleIcons` no Info.plist
