@@ -1,4 +1,4 @@
-# ChangeIcon
+# Video Game Icon
 
 Como trocar o ícone do seu app via código.
 
